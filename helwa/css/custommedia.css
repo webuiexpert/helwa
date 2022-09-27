@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width:969px) and (max-width:1024px){
+.presscol p{min-height:80px;}
+}
+
+@media screen and (max-width:1023px) {
+ .bsnav-sticky.bsnav-sticky-slide{width:100%; position:none !important; padding:5px 15px;}
+.navbar-collapse{background:#f7c600 !important; padding:15px; margin-top:15px;}
+.registerbtn.ml-auto{text-align:center; margin-top:8px;}
+.banner .bannerpics .imgtwo{right:2%; top:300px;}
+.banner .bannerpics .imgthree{display:none;}
+.banner .bannerpics .imgfour{left:50%;}
+.banner .bannerpics .imgfive{top:600px; left:4%;}
+.textsection{padding:0px 15px;}
+.buttonsection{display:block !important;}
+.btnleft a{display:inline-block;}
+.btnright.ml-5{margin-top:10px;}
+.textsection .numbertxt{right:0; font-size:40px; top:-60px;}
+.textsection p{font-size:14px;}
+.faqaccordion .card-header a.card-title{font-size:1.475rem;}
+.storegrid .card-body{padding:1.25rem 8px; font-size:14px;}
+.footerlinks{margin-bottom:25px;}
+.footer__sociable{margin-top:25px;}
+}
+
+
+@media screen and (max-width:767px) {
+.bsnav-mobile .navbar{padding:140px 0 15px !important; background:#ff1000 !important;}
+.bsnav-mobile .bsnav-mobile-overlay{position:absolute;}
+.bsnav-sticky.bsnav-sticky-slide{right:inherit; padding:0 !important;}
+.bsnav-mobile .navbar-nav .nav-item .nav-link{font-size:22px;}
+.bsnav-sticky.bsnav-sticky-slide.sticked{position:relative !important;}
+.banner .bannerpics .imgone{display:none;}
+.banner .container{text-align:center; padding-top:100px; padding-bottom:60px;}
+.banner .bannerpics .imgsix{left:-160px;}
+.banner .bannerpics .imgtwo{display:none;}
+.banner .bannerpics .imgfive{left:-29%;}
+.buttonsection{display:none !important;}
+.btnleft a{display:inline-block;}
+.btnright.ml-5{margin-left:0 !important; margin-top:15px;}
+.textsection .numbertxt{right:10px; top:0px; font-size:30px;}
+.textsection{padding:19px 15px; text-align:center;}
+.textsection h3{font-size:18px;}
+.faqsection h3, .storegrid h3{font-size:22px;}
+.how-it-works h1{font-size:22px;}
+.accordion .card-header.collapsed::before{width:27px; height:27px; line-height:1.68rem; font-size:1rem;}
+.accordion .card-header::before{width:27px; height:27px; line-height:1.68rem; font-size:1rem;}
+.accordion .card-header::after{left:0;}
+.faqaccordion .card-header a.card-title{padding:6px; font-size:14px;}
+.faqaccordion .card .card-body{padding-left:20px; font-size:14px;}
+.buttonmob{display:block; margin-top:25px;}
+.buttonmob a{margin:8px 0; display:inline-block;}
+.bannerleft p.mobdesc{display:block;}
+.bannerleft p.desktop{display:none;}
+.how-desktop{display:none;}
+.how-mobile{display:block;}
+.faqdesktop{display:none;}
+.faqmob{display:block;}
+}
+
+
+@media screen and (max-width:479px){
+.bsnav-sticky.bsnav-sticky-slide{background:#fff !important;}
+}
